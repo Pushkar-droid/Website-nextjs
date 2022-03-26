@@ -1,0 +1,215 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.main{
+  margin-top: 0px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 4px rgb(184, 182, 182);
+  list-style: none;
+  align-items: center;
+}
+.li{
+  padding: 5px 30px;
+}
+.part{
+  display: flex;
+}
+.but2
+{
+  background: red;
+  color: white;
+  font-size: 15px;
+  padding: 9px 30px;
+  border: none;
+  border-radius: 20px;
+}
+@media screen and (min-width:700px){
+.div1{
+  float: right;
+  width: 25%;
+  margin-right: 5%;
+  background: rgb(250, 248, 247);
+  padding: 0px 50px;
+  margin-top: 0px;
+  line-height: 45px;
+}
+.div2{
+  float: left;
+  width: 65%;
+  margin-left: 3%;
+  padding-top: 30px;
+}
+.input1
+{
+  border: none;
+  border-bottom: 1px solid blue;
+  width: 430px;
+  font-size: 18px;
+}
+.input3
+{
+  border: none;
+  border-bottom: 1px solid rgb(10, 10, 10);
+  width: 430px;
+  font-size: 18px;
+}
+.but5
+{
+  background: white;
+  width: 250px;
+  margin-right: 50px;
+  border: none;
+  height: 35px;
+  border: 2px solid grey;
+  border-radius: 10px;
+
+}
+.right1{
+  margin-left: 600px;
+  margin-bottom: 100px;
+}
+}
+
+.personal
+{
+  border-bottom: 2px solid black;
+  padding-right: 300px;
+}
+.payment{
+  border-bottom: 2px solid black;
+}
+.red{
+  border-bottom: 2px solid red;
+}
+.edit
+{
+  color: blue;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.but6
+{
+  border-color: red;
+}
+
+.td3{
+  padding-left: 40px;
+}
+.input2
+{
+  border: none;
+  border-bottom: 1px solid rgb(8, 8, 8);
+  width: 195px;
+}
+.tbody1{
+  line-height: 0.3rem;
+}
+.text1{
+  font-size: 14px;
+  color: rgb(121, 110, 121);
+}
+.back{
+  color:blue;
+  line-height: 3rem;
+}
+
+.read
+{
+  height: 35px;
+  width: 300px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.butt
+{
+  background: blue;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+.coupon{
+  background: white;
+  width: 130px;
+  border: 1px solid rgb(224, 223, 223);
+  margin-left: 10px;
+}
+.img1
+{
+  border: 2px solid red;
+  border-radius: 10%;
+  float: left;
+}
+.item{
+  float: right;
+  margin-right: 0px;
+}
+.img2{
+  border-radius: 50%;
+}
+@media screen and (max-width:600px){
+.div1,.div2{
+  width: 750px;
+  height: 900px;
+  padding: 20px 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 45px ;
+  box-shadow: -7px 10px 20px rgb(175, 174, 174) ;
+}
+.left{
+  float: left;
+}
+.nav{
+  width: 900px;
+}
+.nav4
+{
+  display: none;
+}
+.input1
+{
+  border: none;
+  border-bottom: 1px solid blue;
+  width: 330px;
+  font-size: 18px;
+}
+.input3
+{
+  border: none;
+  border-bottom: 1px solid rgb(10, 10, 10);
+  width: 270px;
+  font-size: 18px;
+}
+.but5
+{
+  background: white;
+  width: 150px;
+  margin-right: 50px;
+  border: none;
+  height: 35px;
+  border: 2px solid grey;
+  border-radius: 10px;
+
+}
+.right1{
+  margin-left: 230px;
+  display: block;
+}
+}
